@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@900&family=Fuzzy+Bubbles&family=Lobster&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+@media(max-width:375){
+
+}
+
+
+.navbar .fa{
+    padding-left: 5px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-link, .navbar-brand{
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+  
+}
+
+.nav-link{
+    margin-right:2em x!important;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color:#000;
+    background-color: #fff;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.header{
+    background-image: url('../images/desktop/image-header.jpg');
+    height: 575px;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-description{
+    color: #fff;
+    margin-top: 7%;
+    text-align: center;
+    width: 100%;
+   
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    font-weight: 900;
+   
+}
+
+.container-fluid-arrow  {
+    position: relative;
+    text-align: center;
+    top:8%;
+}
+
+.fa{
+    color: #fff;
+}
+
+.row{
+    background-color: white;
+    height:500px;
+}
+
+#sect1{
+    background-color: #fff;
+    height: 500px;
+    width:50%;
+}
+
+#sect1 h2{
+    font-family: 'Fraunces', serif;
+    font-size:30px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 17%;
+    margin-left: 20%;
+    margin-right:40%;
+}
+p{
+    color: hsl(232, 10%, 55%);
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#learn-more{
+    text-transform: uppercase;
+    font-family: 'Fraunces',serif;
+    font-weight: 700;
+    font-size: 15px;
+    color:#000;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+    margin-left: 20%;
+}
+
+#learn-more:hover{
+    font-size: 18px;
+}
+
+#sect2{
+    background-color: aqua;
+    height: 500px;
+    width:50%;
+    background-image: url('../images/desktop/image-transform.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  
+}
+
+
+
+#sect3{
+    background-color: aqua;
+    height: 500px;
+    width:50%;
+    background-image: url('../images/desktop/image-stand-out.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  
+}
+
+#sect4{
+    background-color: #fff;
+    height: 500px;
+    width:50%;
+
+}
+
+#sect4 h2{
+    font-family: 'Fraunces', serif;
+    font-size:30px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 17%;
+    margin-left: 20%;
+    margin-right:30%;
+}
+
+
+#sect4 .stand-out{
+    color: hsl(232, 10%, 55%);
+    margin-left: 20%;
+    margin-right: 17.6%;
+
+}
+
+#learn-more2{
+    text-transform: uppercase;
+    font-family: 'Fraunces',serif;
+    font-weight: 700;
+    font-size: 15px;
+    color:#000;
+    text-decoration: underline;
+    text-decoration-color: salmon;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+    margin-left: 20%;
+}
+
+#learn-more2:hover{
+    font-size: 18px;
+}
+
+#sect5{
+    background-color: aqua;
+    height: 500px;
+    width:50%;
+    background-image: url('../images/desktop/image-graphic-design.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  
+}
+
+#sect5 h2{
+    font-family: 'Fraunces', serif;
+    font-size:30px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 45%;
+    text-align: center;
+    color:hsl(198, 62%, 26%);
+    
+}
+
+#sect6{
+    background-color: aqua;
+    height: 500px;
+    width:50%;  
+    background-image: url('../images/desktop/image-photography.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  
+}
+
+#sect6 h2{
+    font-family: 'Fraunces', serif;
+    font-size:30px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 45%;
+    text-align: center;
+    color: hsl(198, 62%, 26%);
+}
+
+.photography-text{
+    text-align: center;
+    color: hsl(198, 62%, 26%);
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right:25%;
+}
+
+#sect7{
+    width:33.33%;
+}
+#emily-card{
+    border-radius: 50%;
+    margin-left: 35%;
+}
+
+#sect8{
+    
+    width:33.33%;
+
+}
+
+#thomas-card{
+    border-radius: 50%;
+    margin-left: 35%;
+}
+
+#sect9{
+    width:33.33%;
+
+}
+#jennie-card{
+    border-radius: 50%;
+    margin-left: 35%;
+
+}
+
+h5{
+    text-align: center;
+    font-family: 'Fraunces',serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.mycard-text{
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.emily-text{
+    margin-top: 12%;
+}
+
+h6{
+    margin-top: 5%;
+    font-family: 'Fraunces', serif;
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.job-title{
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+
+.picture-container{
+    margin-top: 3%;
+    width:100%;
+    height: 500px;
+    background-color: red;
+}
+.image1-container{
+
+    height: 500px;
+    width: 25%;
+}
+
+.img-fluid{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.footer{
+    background-color: hsl(168, 41%, 70%);
+    color:hsl(198, 62%, 26%);
+    margin-top: -3.2%;
+    height: 250px;
+}
+
+.footer-header{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Barlow', sans-serif;
+   
+}
+
+.menu-list ul li{
+    display: inline-block;
+    display: inline;
+    position: relative;
+    left:40%;
+    padding: 10px;
+
+    
+}
+
+.social-icons{
+    text-align: center;
+    
+}
+
+span{
+    padding: 15px;
+}
+
+.fa{
+    color:hsl(198, 62%, 26%);
+}
+
+
+
